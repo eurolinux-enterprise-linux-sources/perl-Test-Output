@@ -1,6 +1,6 @@
 Name:           perl-Test-Output
 Version:        1.01
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Utilities to test STDOUT and STDERR messages
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -46,6 +46,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.01-7
+- Mass rebuild 2013-12-27
+
 * Mon Nov 12 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.01-6
 - Update dependencies
 - Use DESTDIR rather than PERL_INSTALL_ROOT
